@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tekken version="">
+<name>
+</name>
+  <Moves>
+    <Basic>
+      <move>
+        <Directions>
+          <Direction>
+            f
+          </Direction>
+          
+        </Directions>
+        <Limb>
+          2
+        </Limb>
+        <Damage>
+          12
+        </Damage>
+        <HitPosition>
+          H
+        </HitPosition>
+      </move>
+    </Basic>
+  </Moves>
+</Tekken>

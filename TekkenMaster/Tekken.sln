@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenUI", "Tekken\TekkenUI.csproj", "{AFA183FE-F4BB-4E4D-A8D2-70EB44CA456E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDB", "TekkenDB\TekkenDB.csproj", "{1165E0E2-6D2B-4FF6-998E-18F151A63091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDBEditor", "TekkenDBWriter\TekkenDBEditor.csproj", "{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenConsole", "TekkenConsole\TekkenConsole.csproj", "{3528765D-F691-43BC-9015-6C73A615C670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFA183FE-F4BB-4E4D-A8D2-70EB44CA456E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA183FE-F4BB-4E4D-A8D2-70EB44CA456E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA183FE-F4BB-4E4D-A8D2-70EB44CA456E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA183FE-F4BB-4E4D-A8D2-70EB44CA456E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1165E0E2-6D2B-4FF6-998E-18F151A63091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1165E0E2-6D2B-4FF6-998E-18F151A63091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1165E0E2-6D2B-4FF6-998E-18F151A63091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1165E0E2-6D2B-4FF6-998E-18F151A63091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3528765D-F691-43BC-9015-6C73A615C670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3528765D-F691-43BC-9015-6C73A615C670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3528765D-F691-43BC-9015-6C73A615C670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3528765D-F691-43BC-9015-6C73A615C670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenFrame", "TekkenMaster\TekkenFrame\TekkenFrame.csproj", "{603D54F4-FBBA-41C7-9F09-64D85D696CFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenFrame", "TekkenFrame\TekkenFrame.csproj", "{603D54F4-FBBA-41C7-9F09-64D85D696CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenLibrary", "TekkenMaster\TekkenLibrary\TekkenLibrary.csproj", "{484882CF-5F07-4E4A-B1C2-1B9BB1BAA7CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenLibrary", "TekkenLibrary\TekkenLibrary.csproj", "{484882CF-5F07-4E4A-B1C2-1B9BB1BAA7CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDB", "TekkenMaster\TekkenDB\TekkenDB.csproj", "{1165E0E2-6D2B-4FF6-998E-18F151A63091}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDB", "TekkenDB\TekkenDB.csproj", "{1165E0E2-6D2B-4FF6-998E-18F151A63091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDBEditor", "TekkenMaster\TekkenDBWriter\TekkenDBEditor.csproj", "{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDBEditor", "TekkenDBWriter\TekkenDBEditor.csproj", "{5ED0C7A4-2D04-4A9B-97C3-D06C3265D341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenConsole", "TekkenMaster\TekkenConsole\TekkenConsole.csproj", "{3528765D-F691-43BC-9015-6C73A615C670}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenConsole", "TekkenConsole\TekkenConsole.csproj", "{3528765D-F691-43BC-9015-6C73A615C670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenWeb", "TekkenWeb\TekkenWeb.csproj", "{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekkenDatabase", "TekkenDatabase\TekkenDatabase.csproj", "{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +113,38 @@ Global
 		{3528765D-F691-43BC-9015-6C73A615C670}.Release|x64.Build.0 = Release|Any CPU
 		{3528765D-F691-43BC-9015-6C73A615C670}.Release|x86.ActiveCfg = Release|Any CPU
 		{3528765D-F691-43BC-9015-6C73A615C670}.Release|x86.Build.0 = Release|Any CPU
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|ARM.ActiveCfg = Debug|ARM
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|ARM.Build.0 = Debug|ARM
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|x64.ActiveCfg = Debug|x64
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|x64.Build.0 = Debug|x64
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|x86.ActiveCfg = Debug|x86
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Debug|x86.Build.0 = Debug|x86
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|ARM.ActiveCfg = Release|ARM
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|ARM.Build.0 = Release|ARM
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|x64.ActiveCfg = Release|x64
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|x64.Build.0 = Release|x64
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|x86.ActiveCfg = Release|x86
+		{75B07F72-9AE8-4FB5-A43B-9A3159B26A44}.Release|x86.Build.0 = Release|x86
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|ARM.Build.0 = Debug|ARM
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|x64.ActiveCfg = Debug|x64
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|x64.Build.0 = Debug|x64
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|x86.ActiveCfg = Debug|x86
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Debug|x86.Build.0 = Debug|x86
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|ARM.ActiveCfg = Release|ARM
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|ARM.Build.0 = Release|ARM
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|x64.ActiveCfg = Release|x64
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|x64.Build.0 = Release|x64
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|x86.ActiveCfg = Release|x86
+		{7D171A91-5C09-45CF-8A36-125CF6F3CDBC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
